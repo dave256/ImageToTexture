@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0368B24713462DC400B09CC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0368B24613462DC400B09CC7 /* Foundation.framework */; };
 		0368B24A13462DC400B09CC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0368B24913462DC400B09CC7 /* main.m */; };
+		0368B25413462E9A00B09CC7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0368B25313462E9A00B09CC7 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +28,9 @@
 		0368B24213462DC400B09CC7 /* ImageToTexture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ImageToTexture; sourceTree = BUILT_PRODUCTS_DIR; };
 		0368B24613462DC400B09CC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0368B24913462DC400B09CC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0368B24C13462DC400B09CC7 /* ImageToTexture-Prefix.pch */ = {isa = PBXFileReference; path = "ImageToTexture-Prefix.pch"; sourceTree = "<group>"; };
+		0368B24C13462DC400B09CC7 /* ImageToTexture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageToTexture-Prefix.pch"; sourceTree = "<group>"; };
 		0368B24D13462DC400B09CC7 /* ImageToTexture.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ImageToTexture.1; sourceTree = "<group>"; };
+		0368B25313462E9A00B09CC7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0368B25413462E9A00B09CC7 /* Cocoa.framework in Frameworks */,
 				0368B24713462DC400B09CC7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +49,7 @@
 		0368B23713462DC400B09CC7 = {
 			isa = PBXGroup;
 			children = (
+				0368B25313462E9A00B09CC7 /* Cocoa.framework */,
 				0368B24813462DC400B09CC7 /* ImageToTexture */,
 				0368B24513462DC400B09CC7 /* Frameworks */,
 				0368B24313462DC400B09CC7 /* Products */,
