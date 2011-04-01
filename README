@@ -1,0 +1,27 @@
+Mac command line program for converting images to an uncompressed
+binary file suitable for using with OpenGL textures.
+
+Here is a sample C++ usage of reading the texture file:
+
+       FILE *fp = fopen(filename, "r");
+        unsigned char *texture = new unsigned char[4 * 256 * 256];
+        if (fread(texture, sizeof(unsigned char), 4 * 256 * 256, fp)
+        != 4* 256 *256) {
+            fprintf(stderr, "error reading %s", filename);
+        }
+        fclose(fp);
+        glGenTextures(1, &textureNum);
+        glBindTexture(GL_TEXTURE_2D, textureNum);
+        
+        glTexEnvf( GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_DECAL );        
+        glTexParameterf( GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER,
+                        GL_LINEAR_MIPMAP_NEAREST );
+        glTexParameterf( GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER,
+        GL_LINEAR );        
+        glTexParameterf( GL_TEXTURE_2D, GL_TEXTURE_WRAP_S,
+                        GL_CLAMP );
+        glTexParameterf( GL_TEXTURE_2D, GL_TEXTURE_WRAP_T,
+                        GL_CLAMP );
+        gluBuild2DMipmaps(GL_TEXTURE_2D, 4, 256, 256, GL_RGBA,
+        GL_UNSIGNED_BYTE, texture);
+        delete [] texture;
