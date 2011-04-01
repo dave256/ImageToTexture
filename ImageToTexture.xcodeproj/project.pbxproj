@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0368B24713462DC400B09CC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0368B24613462DC400B09CC7 /* Foundation.framework */; };
+		0368B24A13462DC400B09CC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0368B24913462DC400B09CC7 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0368B24013462DC400B09CC7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0368B24213462DC400B09CC7 /* ImageToTexture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ImageToTexture; sourceTree = BUILT_PRODUCTS_DIR; };
+		0368B24613462DC400B09CC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0368B24913462DC400B09CC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0368B24C13462DC400B09CC7 /* ImageToTexture-Prefix.pch */ = {isa = PBXFileReference; path = "ImageToTexture-Prefix.pch"; sourceTree = "<group>"; };
+		0368B24D13462DC400B09CC7 /* ImageToTexture.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ImageToTexture.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0368B23F13462DC400B09CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0368B24713462DC400B09CC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0368B23713462DC400B09CC7 = {
+			isa = PBXGroup;
+			children = (
+				0368B24813462DC400B09CC7 /* ImageToTexture */,
+				0368B24513462DC400B09CC7 /* Frameworks */,
+				0368B24313462DC400B09CC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0368B24313462DC400B09CC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0368B24213462DC400B09CC7 /* ImageToTexture */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0368B24513462DC400B09CC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0368B24613462DC400B09CC7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0368B24813462DC400B09CC7 /* ImageToTexture */ = {
+			isa = PBXGroup;
+			children = (
+				0368B24913462DC400B09CC7 /* main.m */,
+				0368B24D13462DC400B09CC7 /* ImageToTexture.1 */,
+				0368B24B13462DC400B09CC7 /* Supporting Files */,
+			);
+			path = ImageToTexture;
+			sourceTree = "<group>";
+		};
+		0368B24B13462DC400B09CC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0368B24C13462DC400B09CC7 /* ImageToTexture-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0368B24113462DC400B09CC7 /* ImageToTexture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0368B25013462DC400B09CC7 /* Build configuration list for PBXNativeTarget "ImageToTexture" */;
+			buildPhases = (
+				0368B23E13462DC400B09CC7 /* Sources */,
+				0368B23F13462DC400B09CC7 /* Frameworks */,
+				0368B24013462DC400B09CC7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageToTexture;
+			productName = ImageToTexture;
+			productReference = 0368B24213462DC400B09CC7 /* ImageToTexture */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0368B23913462DC400B09CC7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0368B23C13462DC400B09CC7 /* Build configuration list for PBXProject "ImageToTexture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0368B23713462DC400B09CC7;
+			productRefGroup = 0368B24313462DC400B09CC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0368B24113462DC400B09CC7 /* ImageToTexture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0368B23E13462DC400B09CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0368B24A13462DC400B09CC7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0368B24E13462DC400B09CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0368B24F13462DC400B09CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0368B25113462DC400B09CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageToTexture/ImageToTexture-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0368B25213462DC400B09CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageToTexture/ImageToTexture-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0368B23C13462DC400B09CC7 /* Build configuration list for PBXProject "ImageToTexture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0368B24E13462DC400B09CC7 /* Debug */,
+				0368B24F13462DC400B09CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0368B25013462DC400B09CC7 /* Build configuration list for PBXNativeTarget "ImageToTexture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0368B25113462DC400B09CC7 /* Debug */,
+				0368B25213462DC400B09CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0368B23913462DC400B09CC7 /* Project object */;
+}
